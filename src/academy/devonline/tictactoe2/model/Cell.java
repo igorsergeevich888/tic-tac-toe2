@@ -38,4 +38,13 @@ public class Cell {
     public int getRow() {
         return row;
     }
+
+    @Override
+    public String toString() {
+        final StringBuilder sb = new StringBuilder("Cell{");
+        sb.append("row=").append(row);
+        sb.append(", col=").append(col);
+        sb.append('}');
+        return sb.toString();
+    }
 }
