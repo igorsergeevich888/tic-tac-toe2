@@ -21,24 +21,21 @@ package academy.devonline.tictactoe2.model;
  * @author devonline
  * @link http://devonline.academy/java
  */
-public class GameTable {
+public class Cell {
+    private final int row;
 
-    private final char[][] table = {
-            {' ', ' ', ' '},
-            {' ', ' ', ' '},
-            {' ', ' ', ' '}
-    };
+    private final int col;
 
-    public boolean isEmpty(final Cell cell) {
-        return table[cell.getRow()][cell.getCol()] == ' ';
+    public Cell(final int row, final int col) {
+        this.row = row;
+        this.col = col;
     }
 
-    public char getSign(final Cell cell) {
-        return table[cell.getRow()][cell.getCol()];
+    public int getCol() {
+        return col;
     }
 
-    public void setSign(final Cell cell, final char sign) {
-        table[cell.getRow()][cell.getCol()] = sign;
+    public int getRow() {
+        return row;
     }
-
 }
