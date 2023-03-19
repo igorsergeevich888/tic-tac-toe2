@@ -15,13 +15,16 @@
  * limitations under the License.
  */
 
-package academy.devonline.tictactoe2;
+package academy.devonline.tictactoe2.components;
+
+import academy.devonline.tictactoe2.model.GameTable;
 
 /**
  * @author devonline
  * @link http://devonline.academy/java
  */
 public class DataPrinter {
+
     public void printMappingTable() {
     }
 
@@ -29,3 +32,4 @@ public class DataPrinter {
 
     }
 }
+

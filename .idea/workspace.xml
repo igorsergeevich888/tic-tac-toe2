@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63cb0808-928a-4d3f-bdd1-74d278280563" name="Changes" comment="Add root package and Launcher class">
-      <change afterPath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/ComputerMove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/DataPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/DrawVerifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/GameTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/UserMove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/WinnerVerifier.java" afterDir="false" />
+    <list default="true" id="63cb0808-928a-4d3f-bdd1-74d278280563" name="Changes" comment="Add Game class with child components">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/ComputerMove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/components/ComputerMove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/DataPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/components/DataPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/DrawVerifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/components/DrawVerifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/components/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/GameTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/model/GameTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/components/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/UserMove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/components/UserMove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/WinnerVerifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/components/WinnerVerifier.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,11 +56,11 @@
   </component>
   <component name="RunManager">
     <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="academy.devonline.tictactoe2.Launcher" />
+      <option name="MAIN_CLASS_NAME" value="academy.devonline.tictactoe2.components.Launcher" />
       <module name="tic-tac-toe2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="academy.devonline.tictactoe2.*" />
+          <option name="PATTERN" value="academy.devonline.tictactoe2.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,7 +70,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Launcher" />
+        <item itemvalue="Application.academy.devonline.tictactoe2.Launcher" />
       </list>
     </recent_temporary>
   </component>
@@ -104,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679050138973</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add Game class with child components">
+      <created>1679220157331</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679220157331</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,7 +158,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add files" />
     <MESSAGE value="Add root package and Launcher class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add root package and Launcher class" />
+    <MESSAGE value="Add Game class with child components" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Game class with child components" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

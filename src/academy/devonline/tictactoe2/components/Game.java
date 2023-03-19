@@ -15,8 +15,10 @@
  * limitations under the License.
  */
 
-package academy.devonline.tictactoe2;
+package academy.devonline.tictactoe2.components;
 
+
+import academy.devonline.tictactoe2.model.GameTable;
 
 import java.util.Random;
 
@@ -78,4 +80,6 @@ public class Game {
         System.out.println("GAME OVER!");
 
     }
+
+
 }
