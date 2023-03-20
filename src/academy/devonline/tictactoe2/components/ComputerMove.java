@@ -17,7 +17,10 @@
 
 package academy.devonline.tictactoe2.components;
 
+import academy.devonline.tictactoe2.model.Cell;
 import academy.devonline.tictactoe2.model.GameTable;
+
+import java.util.Random;
 
 /**
  * @author devonline
@@ -25,6 +28,40 @@ import academy.devonline.tictactoe2.model.GameTable;
  */
 public class ComputerMove {
     public void make(final GameTable gameTable) {
+
+        Random random = new Random();
+        while (true) {
+            int row = random.nextInt(3);
+            int col = random.nextInt(3);
+            final Cell cell = new Cell(row, col);
+
+            if (gameTable.isEmpty(cell)) {
+                gameTable.setSign(cell, '0');
+                return;
+            }
+
+        }
+
+
+        /*
+
+           final int[][] table = {
+                {7, 8, 9},
+                {4, 5, 6},
+                {1, 2, 3}
+        };
+        final int number = new Random().nextInt(10);
+
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                if (table[i][j] == number) {
+                    gameTable.setSign(new Cell(i, j), '0');
+                }
+            }
+        }
+
+         */
+
 
     }
 }

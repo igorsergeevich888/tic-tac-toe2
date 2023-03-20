@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63cb0808-928a-4d3f-bdd1-74d278280563" name="Changes" comment="Add model classes">
-      <change afterPath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/components/DataprintTest.java" afterDir="false" />
+    <list default="true" id="63cb0808-928a-4d3f-bdd1-74d278280563" name="Changes" comment="Implement DataPrinter component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/components/DataPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/components/DataPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/components/ComputerMove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/components/ComputerMove.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/components/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/components/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/model/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/model/Cell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/model/GameTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/model/GameTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/components/WinnerVerifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/components/WinnerVerifier.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +49,7 @@
       <recent name="C:\Users\igorb\IdeaProjects\tic-tac-toe2\.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.academy.devonline.tictactoe2.Launcher">
+  <component name="RunManager" selected="Application.Launcher">
     <configuration name="DataprintTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="academy.devonline.tictactoe2.components.DataprintTest" />
       <module name="tic-tac-toe2" />
@@ -80,7 +78,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.academy.devonline.tictactoe2.Launcher" />
+        <item itemvalue="Application.Launcher" />
         <item itemvalue="Application.DataprintTest" />
       </list>
     </recent_temporary>
@@ -136,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679222012793</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Implement DataPrinter component">
+      <created>1679226732882</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679226732882</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,7 +191,8 @@
     <MESSAGE value="Add Game class with child components" />
     <MESSAGE value="Separate the models and components" />
     <MESSAGE value="Add model classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add model classes" />
+    <MESSAGE value="Implement DataPrinter component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement DataPrinter component" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
