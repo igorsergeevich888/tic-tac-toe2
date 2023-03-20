@@ -28,12 +28,12 @@ import java.util.Scanner;
  */
 public class UserMove {
 
-    final char[][] table = {
-            {'7', '8', '9'},
-            {'4', '5', '6'},
-            {'1', '2', '3'}
-    };
 
+    private final CellNumberConverter cellNumberConverter;
+
+    public UserMove(final CellNumberConverter cellNumberConverter) {
+        this.cellNumberConverter = cellNumberConverter;
+    }
 
     public void make(final GameTable gameTable) {
 
@@ -46,22 +46,16 @@ public class UserMove {
             char ch = string.charAt(0);
 
             if (ch >= '1' && ch <= '9') {
-                for (int i = 0; i < 3; i++) {
-                    for (int j = 0; j < 3; j++) {
-                        if (table[i][j] == ch) {
-                            Cell cell = new Cell(i, j);
-                            if (gameTable.isEmpty(cell)) {
-                                gameTable.setSign(cell, 'X');
-                                return;
-                            } else {
-                                System.out.println("Can't make a move, because the cell is not free! Try again!");
-                            }
-                        }
-                    }
+                Cell cell = cellNumberConverter.toCell(ch);
+                if (gameTable.isEmpty(cell)) {
+                    gameTable.setSign(cell, 'X');
+                    return;
+                } else {
+                    System.out.println("Can't make a move, because the cell is not free! Try again!");
                 }
             }
-
         }
-
     }
 }
+
+

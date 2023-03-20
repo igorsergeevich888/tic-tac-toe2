@@ -26,15 +26,21 @@ import academy.devonline.tictactoe2.model.GameTable;
  */
 public class DataPrinter {
 
+    private final CellNumberConverter cellNumberConverter;
+
+    public DataPrinter(final CellNumberConverter cellNumberConverter) {
+        this.cellNumberConverter = cellNumberConverter;
+    }
+
     public void printMappingTable() {
+
         System.out.println("-------------");
-        for (int i = 7; i > 0; i = i - 3) {
+        for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                int number = j + i;
-                System.out.print("| " + number + " ");
+                System.out.print("| " + cellNumberConverter.toNumber(new Cell(i, j)) + " ");
             }
-            System.out.print("|");
-            System.out.println();
+            System.out.println("|");
+
             System.out.println("-------------");
         }
     }

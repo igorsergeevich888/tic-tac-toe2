@@ -17,18 +17,34 @@
 
 package academy.devonline.tictactoe2.components;
 
+import academy.devonline.tictactoe2.model.Cell;
+
 /**
- * 1
- *
  * @author devonline
  * @link http://devonline.academy/java
  */
-public class Launcher {
-    public static void main(final String[] args) {
-        final CellNumberConverter cellNumberConverter = new CellNumberConverter();
+public class CellNumberConverter {
 
-        final Game game = new Game(new DataPrinter(cellNumberConverter), new ComputerMove(), new UserMove(cellNumberConverter), new WinnerVerifier(), new CellVerifier()
-        );
-        game.play();
+    final char[][] table = {
+            {'7', '8', '9'},
+            {'4', '5', '6'},
+            {'1', '2', '3'}
+    };
+
+    public Cell toCell(final char number) {
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                if (table[i][j] == number) {
+                    Cell cell = new Cell(i, j);
+                    return cell;
+                }
+            }
+        }
+        return null;
+    }
+
+
+    public char toNumber(final Cell cell) {
+        return table[cell.getRow()][cell.getCol()];
     }
 }
