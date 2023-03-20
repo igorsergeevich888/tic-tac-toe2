@@ -17,7 +17,7 @@
 
 package academy.devonline.tictactoe2.components;
 
-import academy.devonline.tictactoe2.keypad.DesktopNumericKeypadCellNumberConverter;
+import academy.devonline.tictactoe2.keypad.TerminalNumericKeypadCellNumberConverter;
 
 /**
  * 1
@@ -27,7 +27,7 @@ import academy.devonline.tictactoe2.keypad.DesktopNumericKeypadCellNumberConvert
  */
 public class Launcher {
     public static void main(final String[] args) {
-        CellNumberConverter cellNumberConverter = new DesktopNumericKeypadCellNumberConverter();
+        CellNumberConverter cellNumberConverter = new TerminalNumericKeypadCellNumberConverter();
 
         final Game game = new Game(
                 new DataPrinter(cellNumberConverter),
