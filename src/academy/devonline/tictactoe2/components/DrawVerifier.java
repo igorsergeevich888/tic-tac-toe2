@@ -17,6 +17,7 @@
 
 package academy.devonline.tictactoe2.components;
 
+import academy.devonline.tictactoe2.model.Cell;
 import academy.devonline.tictactoe2.model.GameTable;
 
 /**
@@ -25,6 +26,15 @@ import academy.devonline.tictactoe2.model.GameTable;
  */
 public class DrawVerifier {
     public boolean isDraw(final GameTable gameTable) {
-        return false;
+
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                Cell cell = new Cell(i, j);
+                if (gameTable.isEmpty(cell)) {
+                    return false;
+                }
+            }
+        }
+        return true;
     }
 }
