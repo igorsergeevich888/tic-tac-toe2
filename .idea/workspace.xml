@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63cb0808-928a-4d3f-bdd1-74d278280563" name="Changes" comment="Rename DrawVerifier to CellVerifier">
-      <change afterPath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/components/CellNumberConverter.java" afterDir="false" />
+    <list default="true" id="63cb0808-928a-4d3f-bdd1-74d278280563" name="Changes" comment="Convert CellNumberConverter class to interface">
+      <change afterPath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/keypad/DesktopNumericKeypadCellNumberConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/components/DataPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/components/DataPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/components/CellNumberConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/components/CellNumberConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/components/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/components/Launcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/components/UserMove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/components/UserMove.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +15,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -184,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679297826257</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add CellNumberConverter component">
+      <created>1679300588725</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679300588725</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,7 +246,9 @@
     <MESSAGE value="Implement UserMove component" />
     <MESSAGE value="Implement DrawVerifier component" />
     <MESSAGE value="Rename DrawVerifier to CellVerifier" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rename DrawVerifier to CellVerifier" />
+    <MESSAGE value="Add CellNumberConverter component" />
+    <MESSAGE value="Convert CellNumberConverter class to interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Convert CellNumberConverter class to interface" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

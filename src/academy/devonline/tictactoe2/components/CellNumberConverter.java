@@ -23,28 +23,12 @@ import academy.devonline.tictactoe2.model.Cell;
  * @author devonline
  * @link http://devonline.academy/java
  */
-public class CellNumberConverter {
-
-    final char[][] table = {
-            {'7', '8', '9'},
-            {'4', '5', '6'},
-            {'1', '2', '3'}
-    };
-
-    public Cell toCell(final char number) {
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 3; j++) {
-                if (table[i][j] == number) {
-                    Cell cell = new Cell(i, j);
-                    return cell;
-                }
-            }
-        }
-        return null;
-    }
+public interface CellNumberConverter {
 
 
-    public char toNumber(final Cell cell) {
-        return table[cell.getRow()][cell.getCol()];
-    }
+    public Cell toCell(final char number);
+
+    public char toNumber(final Cell cell);
+
+
 }
