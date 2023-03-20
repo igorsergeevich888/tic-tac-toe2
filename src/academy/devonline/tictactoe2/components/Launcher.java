@@ -18,6 +18,8 @@
 package academy.devonline.tictactoe2.components;
 
 /**
+ * 1
+ *
  * @author devonline
  * @link http://devonline.academy/java
  */

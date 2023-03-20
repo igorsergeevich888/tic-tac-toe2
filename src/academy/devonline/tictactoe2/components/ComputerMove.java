@@ -41,27 +41,5 @@ public class ComputerMove {
             }
 
         }
-
-
-        /*
-
-           final int[][] table = {
-                {7, 8, 9},
-                {4, 5, 6},
-                {1, 2, 3}
-        };
-        final int number = new Random().nextInt(10);
-
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 3; j++) {
-                if (table[i][j] == number) {
-                    gameTable.setSign(new Cell(i, j), '0');
-                }
-            }
-        }
-
-         */
-
-
     }
 }

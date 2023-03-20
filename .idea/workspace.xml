@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63cb0808-928a-4d3f-bdd1-74d278280563" name="Changes" comment="Implement DataPrinter component">
+    <list default="true" id="63cb0808-928a-4d3f-bdd1-74d278280563" name="Changes" comment="Implement WinnerVerifier component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/components/ComputerMove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/components/ComputerMove.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/components/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/components/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/components/WinnerVerifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/components/WinnerVerifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/components/UserMove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/devonline/tictactoe2/components/UserMove.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,9 +75,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserMoveTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="academy.devonline.tictactoe2.components.UserMoveTest" />
+      <module name="tic-tac-toe2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="academy.devonline.tictactoe2.components.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Launcher" />
+        <item itemvalue="Application.UserMoveTest" />
         <item itemvalue="Application.DataprintTest" />
       </list>
     </recent_temporary>
@@ -141,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679226732882</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Implement WinnerVerifier component">
+      <created>1679290134664</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679290134664</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,7 +212,8 @@
     <MESSAGE value="Separate the models and components" />
     <MESSAGE value="Add model classes" />
     <MESSAGE value="Implement DataPrinter component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement DataPrinter component" />
+    <MESSAGE value="Implement WinnerVerifier component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement WinnerVerifier component" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
